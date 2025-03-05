@@ -14,5 +14,21 @@ body{
 
 .nav-container{
     background-color: black;
-    color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+}
+
+nav.navigation-list{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+
+}
+a.nav-link{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: clamp(12px, 16px, 20px);
+    color: white;
+    text-decoration: none;
 }
